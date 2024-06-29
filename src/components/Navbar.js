@@ -32,8 +32,8 @@ const Navbar = () => {
         </div>
         <ul className={`nav__list ${isOpen ? 'nav__list--open' : ''}`}>
           <li className="nav__item"><a href="#home" className="nav__link" onClick={handleLinkClick}>Home</a></li>
-          <li className="nav__item"><a href="#about" className="nav__link" onClick={handleLinkClick}>About</a></li>
           <li className="nav__item"><a href="#services" className="nav__link" onClick={handleLinkClick}>Services</a></li>
+          <li className="nav__item"><a href="#about" className="nav__link" onClick={handleLinkClick}>About</a></li>
           <li className="nav__item"><a href="#contact" className="nav__link" onClick={handleLinkClick}>Contact</a></li>
         </ul>
       </nav>
