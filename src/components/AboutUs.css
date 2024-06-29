@@ -1,0 +1,32 @@
+/* src/components/AboutUs.css */
+
+.about-us {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: black; 
+    color: white; 
+    opacity: 0; /* Initially hidden */
+    transition: opacity 4s ease-in-out; 
+  }
+  
+  .about-us.is-visible {
+    opacity: 1; /* Fully visible */
+  }
+  
+  .about-us__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us__title {
+    font-size: 36px;
+    color: #00A86B; 
+    margin-bottom: 20px;
+  }
+  
+  .about-us__description {
+    font-size: 18px;
+    color: #bbb; 
+    margin-bottom: 20px;
+  }
+  
