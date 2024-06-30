@@ -1,4 +1,4 @@
-/* src/components/Home.css */
+/* Home.css */
 
 .home {
   display: flex;
@@ -8,6 +8,7 @@
   background-color: black;
   text-align: center;
   padding: 100px 20px 0 20px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .home__content {
@@ -84,22 +85,51 @@
 
 @keyframes fadeInSlideLeft {
   0% {
-    opacity: 0;
-    transform: translateX(-20px);
+      opacity: 0;
+      transform: translateX(-20px);
   }
   100% {
-    opacity: 1;
-    transform: translateX(0);
+      opacity: 1;
+      transform: translateX(0);
   }
 }
 
 @keyframes fadeInSlideUp {
   0% {
-    opacity: 0;
-    transform: translateY(20px);
+      opacity: 0;
+      transform: translateY(20px);
   }
   100% {
-    opacity: 1;
-    transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
   }
+}
+
+.home.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.home.light-mode .home__title,
+.home.light-mode .home__description {
+  color: black;
+}
+
+.home.light-mode .home__subtitle {
+  color: #007B50;
+}
+
+.home.light-mode .home__button--primary {
+  background-color: #007B50;
+  color: white;
+}
+
+.home.light-mode .home__button--secondary {
+  color: #007B50;
+  border: 2px solid #007B50;
+}
+
+.home.light-mode .home__button--secondary:hover {
+  background-color: #007B50;
+  color: white;
 }
