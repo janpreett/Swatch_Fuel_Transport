@@ -1,0 +1,47 @@
+/* LightBulb.css */
+.light-bulb-container {
+    position: relative; /* Maintain document flow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ensure the container does not affect the layout */
+}
+
+.light-bulb {
+    width: 200px; /* Increase size as needed */
+    height: 200px; /* Increase size as needed */
+    background: #e1e1e1;
+    border-radius: 50%;
+    position: absolute; /* Position absolutely within the container */
+    top: -100px; /* Adjust this value to position the bulb above the subtitle */
+}
+
+.light-bulb::before, .light-bulb::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-bulb::before {
+    width: 70px;
+    height: 0;
+    border-top: 50px solid #777777;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    bottom: -17px;
+}
+
+.light-bulb::after {
+    width: 70px;
+    height: 30px;
+    background: #999999;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: -50px;
+}
+
+.light-bulb:hover {
+    background: yellow;
+    box-shadow: 0 0 100px yellow;
+}

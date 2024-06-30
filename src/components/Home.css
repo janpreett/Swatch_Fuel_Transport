@@ -7,11 +7,12 @@
   height: 100vh;
   background-color: black; 
   text-align: center;
-  padding: 0 20px;
+  padding: 100px 20px 0 20px;  /* Add padding-top to account for the fixed navbar */
 }
 
 .home__content {
   max-width: 800px;
+  position: relative; /* Ensure the content is positioned relative for absolute positioning of the bulb */
 }
 
 .home__subtitle,
@@ -26,6 +27,7 @@
   color: #00A86B; 
   margin-bottom: 10px;
   animation-delay: 0.2s;
+  margin-top: 60px; /* Adjust as needed to create space for the light bulb */
 }
 
 .home__title {
