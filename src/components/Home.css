@@ -5,41 +5,41 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: black; 
+  background-color: black;
   text-align: center;
-  padding: 100px 20px 0 20px;  /* Add padding-top to account for the fixed navbar */
+  padding: 100px 20px 0 20px;
 }
 
 .home__content {
   max-width: 800px;
-  position: relative; /* Ensure the content is positioned relative for absolute positioning of the bulb */
+  position: relative;
 }
 
 .home__subtitle,
 .home__title,
 .home__description {
-  opacity: 0; 
+  opacity: 0;
   animation: fadeInSlideLeft 1s ease-in-out forwards;
 }
 
 .home__subtitle {
   font-size: 18px;
-  color: #00A86B; 
+  color: #00A86B;
   margin-bottom: 10px;
   animation-delay: 0.2s;
-  margin-top: 60px; /* Adjust as needed to create space for the light bulb */
+  margin-top: 60px;
 }
 
 .home__title {
   font-size: 48px;
-  color: white; 
+  color: white;
   margin-bottom: 20px;
   animation-delay: 0.4s;
 }
 
 .home__description {
   font-size: 18px;
-  color: #bbb; 
+  color: #bbb;
   margin-bottom: 40px;
   animation-delay: 0.6s;
 }
@@ -51,7 +51,7 @@
 }
 
 .home__button {
-  opacity: 0; /* Start invisible */
+  opacity: 0;
   padding: 15px 30px;
   font-size: 16px;
   border: none;
@@ -59,47 +59,47 @@
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
   animation: fadeInSlideUp 1s ease-in-out forwards;
-  animation-delay: 1.2s; /* Delay to start after text animations */
+  animation-delay: 1.2s;
 }
 
 .home__button--primary {
-  background-color: #00A86B; 
+  background-color: #00A86B;
   color: white;
 }
 
 .home__button--primary:hover {
-  background-color: #007B50; 
+  background-color: #007B50;
 }
 
 .home__button--secondary {
   background-color: transparent;
-  color: #00A86B; 
+  color: #00A86B;
   border: 2px solid #00A86B;
 }
 
 .home__button--secondary:hover {
-  background-color: #00A86B; 
+  background-color: #00A86B;
   color: white;
 }
 
 @keyframes fadeInSlideLeft {
   0% {
     opacity: 0;
-    transform: translateX(-20px); /* Start slightly to the left */
+    transform: translateX(-20px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0); /* End at original position */
+    transform: translateX(0);
   }
 }
 
 @keyframes fadeInSlideUp {
   0% {
     opacity: 0;
-    transform: translateY(20px); /* Start slightly below */
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* End at original position */
+    transform: translateY(0);
   }
 }
