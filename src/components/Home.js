@@ -1,4 +1,5 @@
 // src/components/Home.js
+
 import React, { useState } from 'react';
 import './Home.css';
 import './LightBulb.css';

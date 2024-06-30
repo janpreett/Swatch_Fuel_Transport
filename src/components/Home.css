@@ -23,7 +23,7 @@
 .home__subtitle,
 .home__title,
 .home__description {
-  opacity: 10;
+  opacity: 0;
   animation: fadeInSlideLeft 1s ease-in-out forwards;
 }
 
