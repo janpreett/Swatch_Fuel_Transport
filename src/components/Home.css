@@ -81,19 +81,10 @@
   color: white;
 }
 
-.home__button--primary:hover {
-  background-color: #007B50;
-}
-
 .home__button--secondary {
   background-color: transparent;
   color: #00A86B;
   border: 2px solid #00A86B;
-}
-
-.home__button--secondary:hover {
-  background-color: #00A86B;
-  color: white;
 }
 
 @keyframes fadeInSlideLeft {

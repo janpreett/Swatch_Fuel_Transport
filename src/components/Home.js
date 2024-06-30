@@ -5,9 +5,11 @@ import './LightBulb.css';
 
 const Home = () => {
   const [isLightMode, setIsLightMode] = useState(false);
+  const [isLightBulbOn, setIsLightBulbOn] = useState(false);
 
   const handleLightBulbClick = () => {
     setIsLightMode(!isLightMode);
+    setIsLightBulbOn(!isLightBulbOn);
   };
 
   const handleButtonClick = (e) => {
@@ -24,7 +26,7 @@ const Home = () => {
     <section className={`home ${isLightMode ? 'light-mode' : ''}`} id="home">
       <div className="home__content">
         <div className="light-bulb-container" onClick={handleLightBulbClick}>
-          <div className="light-bulb"></div>
+          <div className={`light-bulb ${isLightBulbOn ? 'on' : ''}`}></div>
         </div>
         <h2 className="home__subtitle">Empowering Your Electrical Needs</h2>
         <h1 className="home__title">GN Electricals</h1>
