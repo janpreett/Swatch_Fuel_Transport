@@ -1,5 +1,4 @@
 /* LightBulb.css */
-
 .light-bulb-container {
     position: relative;
     display: flex;
@@ -44,7 +43,7 @@
     bottom: -50px;
   }
   
-  .light-bulb:hover {
+  .light-bulb.clicked {
     background: yellow;
     box-shadow: 0 0 100px yellow;
   }
