@@ -1,44 +1,29 @@
 // src/components/Home.js
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import './LightBulb.css';
 
 const Home = () => {
+  const [isLightMode, setIsLightMode] = useState(false);
+
+  const handleLightBulbClick = () => {
+    setIsLightMode(!isLightMode);
+  };
+
   const handleButtonClick = (e) => {
     e.preventDefault();
     const targetId = e.currentTarget.getAttribute('href');
     const targetElement = document.querySelector(targetId);
-
+    
     targetElement.scrollIntoView({
       behavior: 'smooth'
     });
   };
 
-  useEffect(() => {
-    const lightBulb = document.querySelector('.light-bulb');
-    const home = document.querySelector('.home');
-
-    const handleMouseOver = () => {
-      home.classList.add('light-mode');
-    };
-
-    const handleMouseOut = () => {
-      home.classList.remove('light-mode');
-    };
-
-    lightBulb.addEventListener('mouseover', handleMouseOver);
-    lightBulb.addEventListener('mouseout', handleMouseOut);
-
-    return () => {
-      lightBulb.removeEventListener('mouseover', handleMouseOver);
-      lightBulb.removeEventListener('mouseout', handleMouseOut);
-    };
-  }, []);
-
   return (
-    <section className="home" id="home">
+    <section className={`home ${isLightMode ? 'light-mode' : ''}`} id="home">
       <div className="home__content">
-        <div className="light-bulb-container">
+        <div className="light-bulb-container" onClick={handleLightBulbClick}>
           <div className="light-bulb"></div>
         </div>
         <h2 className="home__subtitle">Empowering Your Electrical Needs</h2>
