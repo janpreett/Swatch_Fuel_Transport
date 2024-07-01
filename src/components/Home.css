@@ -107,8 +107,3 @@
     transform: translateY(0);
   }
 }
-@media (max-width: 768px) {
-  .home{
-    padding: 75px 20px 0 20px;
-  }
-}
