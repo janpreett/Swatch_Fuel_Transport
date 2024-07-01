@@ -59,3 +59,24 @@
     opacity: 1;
   }
 }
+@media (max-width: 768px) {
+  .light-bulb {
+    width: 150px;
+    height: 150px;
+    top: -75px;
+  }
+
+  .light-bulb::before {
+    width: 52.5px; 
+    border-top: 37.5px solid #777777;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    bottom: -12.75px; 
+  }
+
+  .light-bulb::after {
+    width: 52.5px; 
+    height: 22.5px;
+    bottom: -37.5px;
+  }
+}
