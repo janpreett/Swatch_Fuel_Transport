@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GNElectricals/static/css/main.5ea2396e.css",
+    "main.css": "/GNElectricals/static/css/main.1e499b3b.css",
     "main.js": "/GNElectricals/static/js/main.13c941e3.js",
     "static/media/upgrade_panels.jpg": "/GNElectricals/static/media/upgrade_panels.6a3a031660cb62c03df5.jpg",
     "static/media/install_panels.jpg": "/GNElectricals/static/media/install_panels.7afa184615659b0cef9c.jpg",
     "static/media/potlights.jpg": "/GNElectricals/static/media/potlights.c79012df567a437766f1.jpg",
     "index.html": "/GNElectricals/index.html",
-    "main.5ea2396e.css.map": "/GNElectricals/static/css/main.5ea2396e.css.map",
+    "main.1e499b3b.css.map": "/GNElectricals/static/css/main.1e499b3b.css.map",
     "main.13c941e3.js.map": "/GNElectricals/static/js/main.13c941e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ea2396e.css",
+    "static/css/main.1e499b3b.css",
     "static/js/main.13c941e3.js"
   ]
 }
