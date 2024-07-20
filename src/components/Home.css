@@ -29,13 +29,12 @@
 @media screen and (max-width: 450px) {
   .home__truck-image {
     width: 350px; 
+    margin-top:-150px;
   }
 }
-
 .home__content {
   max-width: 800px;
 }
-
 
 .home__subtitle {
   font-size: 18px;
