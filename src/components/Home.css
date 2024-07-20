@@ -24,12 +24,12 @@
 .home__truck-image {
   width: 600px; 
   animation: fadeIn 1s ease-in-out forwards; 
+  margin-top:-180px;
 }
 
 @media screen and (max-width: 450px) {
   .home__truck-image {
     width: 350px; 
-    margin-top:-150px;
   }
 }
 .home__content {
