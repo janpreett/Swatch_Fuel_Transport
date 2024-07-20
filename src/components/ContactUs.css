@@ -11,7 +11,7 @@
   
   .contact-us__header {
     font-size: 36px;
-    color: #00A86B; 
+    color: #6495ED;
     margin-bottom: 20px;
   }
   
@@ -46,7 +46,7 @@
   
   .contact-us__title {
     font-size: 24px;
-    color: #00A86B; 
+    color: #6495ED;
     margin-bottom: 20px;
   }
   
@@ -75,7 +75,7 @@
   }
   
   .contact-us__button {
-    background-color: #00A86B; 
+    background-color: #6495ED;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -85,7 +85,7 @@
   }
   
   .contact-us__button:hover {
-    background-color: #007B50; 
+    background-color: #4169E1;
   }
   
   .contact-us__info {
@@ -121,7 +121,7 @@
 
   a {
     text-decoration: none;
-    color: #00A86B; 
+    color: #6495ED;
   }
   
   

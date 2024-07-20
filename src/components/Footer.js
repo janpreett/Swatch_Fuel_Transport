@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__content">
-        <p>&copy; 2024 GN Electricals. All rights reserved.</p>
-        <p>Providing reliable electrical solutions for residential, commercial, and industrial clients.</p>
+        <p>&copy; 2023 Swatch Fuel Transport. All rights reserved.</p>
+        <p>Efficiently transporting fuel across New Jersey to fuel your success.</p>
       </div>
     </footer>
   );

@@ -33,20 +33,13 @@ const AboutUs = () => {
       <div className="about-us__content">
         <h1 className="about-us__title">About Us</h1>
         <p className="about-us__description">
-          GN Electricals is a dedicated team of skilled electricians providing reliable electrical solutions for residential, commercial, and industrial clients. We prioritize safety, efficiency, and reliability in all our services.
+          Swatch Fuel Transport Inc specializes in the efficient transport of fuel across New Jersey. With a fleet of top-of-the-line trucks and experienced drivers, we are committed to delivering your fuel promptly and reliably.
         </p>
         <p className="about-us__description">
-          With extensive industry experience, we handle projects of any size and complexity, from installations and upgrades to maintenance. Our mission is to deliver innovative electrical solutions that meet your unique needs.
-        </p>
-        <p className="about-us__description">
-          We are committed to building long-term relationships based on trust, integrity, and exceptional service. Your safety and satisfaction are our top priorities.
-        </p>
-        <p className="about-us__description">
-          ESA No. 7015689
+          Our dedication to efficiency and customer satisfaction drives every aspect of our operations. Whether you need regular fuel deliveries or specialized transport solutions, trust Swatch Fuel Transport Inc to meet your needs with professionalism and expertise.
         </p>
       </div>
     </div>
-  );
+  )
 };
-
 export default AboutUs;

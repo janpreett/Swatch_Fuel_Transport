@@ -1,17 +1,8 @@
-// src/components/Home.js
-
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
-import './LightBulb.css';
+import truckImage from '../assets/truck.png';
 
 const Home = () => {
-  const [isLightMode, setIsLightMode] = useState(false);
-  const [isLightBulbOn, setIsLightBulbOn] = useState(false);
-
-  const handleLightBulbClick = () => {
-    setIsLightMode(!isLightMode);
-    setIsLightBulbOn(!isLightBulbOn);
-  };
 
   const handleButtonClick = (e) => {
     e.preventDefault();
@@ -24,15 +15,13 @@ const Home = () => {
   };
 
   return (
-    <section className={`home ${isLightMode ? 'light-mode' : ''}`} id="home">
+    <section className="home" id="home">
       <div className="home__content">
-        <div className="light-bulb-container" onClick={handleLightBulbClick}>
-          <div className={`light-bulb ${isLightBulbOn ? 'on' : ''}`}></div>
-        </div>
-        <h2 className="home__subtitle">Empowering Your Electrical Needs</h2>
-        <h1 className="home__title">GN Electricals</h1>
+        <img src={truckImage} alt="Truck" className="home__truck-image" />
+        <h2 className="home__subtitle">Fueling Your Success, Mile by Mile</h2>
+        <h1 className="home__title">Swatch Fuel Transport</h1>
         <p className="home__description">
-          At GN Electricals, we provide top-notch electrical services to ensure your home and business are powered safely and efficiently.
+          At Swatch Fuel Transport Inc, we provide efficient logistics of fuel across New Jersey.
         </p>
         <div className="home__buttons">
           <a href="#services" className="home__button home__button--primary" onClick={handleButtonClick}>Learn More</a>
