@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GNElectricals/static/css/main.ca6a3ae4.css",
-    "main.js": "/GNElectricals/static/js/main.c7323cde.js",
-    "static/media/gasoline.jpg": "/GNElectricals/static/media/gasoline.6ce463187608298a8a36.jpg",
-    "static/media/truck.png": "/GNElectricals/static/media/truck.ca317342a38549a9fab7.png",
-    "static/media/diesel.jpg": "/GNElectricals/static/media/diesel.c5e1b76c8daa3bbcc5ee.jpg",
-    "index.html": "/GNElectricals/index.html",
-    "main.ca6a3ae4.css.map": "/GNElectricals/static/css/main.ca6a3ae4.css.map",
-    "main.c7323cde.js.map": "/GNElectricals/static/js/main.c7323cde.js.map"
+    "main.css": "/Swatch_Fuel_Transport/static/css/main.ca6a3ae4.css",
+    "main.js": "/Swatch_Fuel_Transport/static/js/main.e8eefd14.js",
+    "static/media/gasoline.jpg": "/Swatch_Fuel_Transport/static/media/gasoline.6ce463187608298a8a36.jpg",
+    "static/media/truck.png": "/Swatch_Fuel_Transport/static/media/truck.ca317342a38549a9fab7.png",
+    "static/media/diesel.jpg": "/Swatch_Fuel_Transport/static/media/diesel.c5e1b76c8daa3bbcc5ee.jpg",
+    "index.html": "/Swatch_Fuel_Transport/index.html",
+    "main.ca6a3ae4.css.map": "/Swatch_Fuel_Transport/static/css/main.ca6a3ae4.css.map",
+    "main.e8eefd14.js.map": "/Swatch_Fuel_Transport/static/js/main.e8eefd14.js.map"
   },
   "entrypoints": [
     "static/css/main.ca6a3ae4.css",
-    "static/js/main.c7323cde.js"
+    "static/js/main.e8eefd14.js"
   ]
 }
