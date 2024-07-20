@@ -1,5 +1,5 @@
 { "homepage": "https://janpreett.github.io/Swatch_Fuel_Transport",
-  "name": "Swatch_Fuel_Transport",
+  "name": "swatch-fuel-transport",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
