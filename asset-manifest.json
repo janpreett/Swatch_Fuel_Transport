@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Swatch_Fuel_Transport/static/css/main.02dfa3ec.css",
-    "main.js": "/Swatch_Fuel_Transport/static/js/main.e8eefd14.js",
+    "main.js": "/Swatch_Fuel_Transport/static/js/main.6767579a.js",
     "static/media/gasoline.jpg": "/Swatch_Fuel_Transport/static/media/gasoline.6ce463187608298a8a36.jpg",
     "static/media/truck.png": "/Swatch_Fuel_Transport/static/media/truck.ca317342a38549a9fab7.png",
     "static/media/diesel.jpg": "/Swatch_Fuel_Transport/static/media/diesel.c5e1b76c8daa3bbcc5ee.jpg",
     "index.html": "/Swatch_Fuel_Transport/index.html",
     "main.02dfa3ec.css.map": "/Swatch_Fuel_Transport/static/css/main.02dfa3ec.css.map",
-    "main.e8eefd14.js.map": "/Swatch_Fuel_Transport/static/js/main.e8eefd14.js.map"
+    "main.6767579a.js.map": "/Swatch_Fuel_Transport/static/js/main.6767579a.js.map"
   },
   "entrypoints": [
     "static/css/main.02dfa3ec.css",
-    "static/js/main.e8eefd14.js"
+    "static/js/main.6767579a.js"
   ]
 }
