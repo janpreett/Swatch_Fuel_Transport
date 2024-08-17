@@ -142,3 +142,13 @@
     }
   }
   
+  .contact-us__checkbox-label {
+    display: inline-block;
+    color: #000; /* Ensure text color is visible */
+    font-size: 16px; /* Set a readable font size */
+    margin-left: 5px; /* Add some space between the checkbox and the text */
+  }
+
+.contact-us__checkbox {
+    margin-right: 10px;
+}

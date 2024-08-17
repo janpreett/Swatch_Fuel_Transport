@@ -64,7 +64,16 @@ const ContactUs = () => {
               <input type="tel" name="phone" placeholder="Phone*" className="contact-us__input" required />
             </div>
             <textarea name="message" placeholder="Message*" className="contact-us__textarea" required></textarea>
-            <button type="submit" className="contact-us__button">SEND MESSAGE</button>
+
+            <div className="contact-us__input-group">
+              <label className="contact-us__checkbox-label">
+                <input 
+                  type="checkbox" 
+                  name="opt_in" 
+                  className="contact-us__checkbox" 
+                />I agree to receive emails and calls.</label>
+            </div>
+           <button type="submit" className="contact-us__button">SEND MESSAGE</button>
           </form>
         </div>
         <div ref={infoRef} className="contact-us__info">
