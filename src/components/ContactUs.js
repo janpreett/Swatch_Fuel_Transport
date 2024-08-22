@@ -71,11 +71,10 @@ const ContactUs = ({ onPrivacyPolicyClick }) => {
                   type="checkbox" 
                   name="opt_in" 
                   className="contact-us__checkbox" 
-                />
-                By checking this box, you agree to receive SMS notifications and updates. Message and data rates may apply. Reply STOP to unsubscribe. View our <a href="#" onClick={(e) => {
+                />By checking this box, I consent to receive SMS messages from the Swatch Fuel Transport team concerning my inquiry. Message frequency may vary, and message and data rates may apply. To opt out, reply STOP. For assistance, reply HELP. For more details, please review our <a href="#" onClick={(e) => {
                   e.preventDefault();
                   onPrivacyPolicyClick();
-                }}>Privacy Policy</a>
+                }}>Terms and Privacy Policy</a>.
               </label>
             </div>
            <button type="submit" className="contact-us__button">SEND MESSAGE</button>
