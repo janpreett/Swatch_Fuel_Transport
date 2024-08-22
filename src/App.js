@@ -22,7 +22,7 @@ function App() {
       <Home />
       <Services />
       <AboutUs />
-      <ContactUs />
+      <ContactUs onPrivacyPolicyClick={togglePrivacyPolicy} />
       <Footer onPrivacyPolicyClick={togglePrivacyPolicy} />
       {showPrivacyPolicy && <PrivacyPolicy onClose={togglePrivacyPolicy} />}
     </div>

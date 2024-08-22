@@ -4,7 +4,7 @@ import React, { useRef, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
 
-const ContactUs = () => {
+const ContactUs = ({ onPrivacyPolicyClick }) => {
   const form = useRef();
   const formRef = useRef();
   const infoRef = useRef();
@@ -65,13 +65,18 @@ const ContactUs = () => {
             </div>
             <textarea name="message" placeholder="Message*" className="contact-us__textarea" required></textarea>
 
-            <div className="contact-us__input-group">
+           <div className="contact-us__input-group">
               <label className="contact-us__checkbox-label">
                 <input 
                   type="checkbox" 
                   name="opt_in" 
                   className="contact-us__checkbox" 
-                />I agree to receive emails and calls.</label>
+                />
+                By checking this box, you agree to receive SMS notifications and updates. Message and data rates may apply. Reply STOP to unsubscribe. View our <a href="#" onClick={(e) => {
+                  e.preventDefault();
+                  onPrivacyPolicyClick();
+                }}>Privacy Policy</a>
+              </label>
             </div>
            <button type="submit" className="contact-us__button">SEND MESSAGE</button>
           </form>
