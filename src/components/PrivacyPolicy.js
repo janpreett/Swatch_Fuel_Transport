@@ -44,10 +44,16 @@ const PrivacyPolicy = ({ onClose }) => {
         <p>If you receive SMS messages from us concerning your inquiry, message frequency may vary, and message and data rates may apply. To opt out of receiving SMS messages, reply with "STOP." For assistance, reply with "HELP."</p>
         <p>To exercise your rights or for any questions, please contact us using the contact information below.</p>
 
-        <h3>8. Changes to This Privacy Policy</h3>
+        <h3>8. Filing a Privacy Complaint</h3>
+        <p>If you believe that your privacy rights have been violated or have concerns about how we handle your personal information, you may file a complaint with us. To do so, please contact our Privacy Officer at:</p>
+        <address>
+          Email: swatchfueltransport@yahoo.com
+        </address>
+
+        <h3>9. Changes to This Privacy Policy</h3>
         <p>We may update this Privacy Policy periodically. We will notify you of significant changes by posting the updated policy on our website.</p>
 
-        <h3>9. Contact Us</h3>
+        <h3>10. Contact Us</h3>
         <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
         <address>
           Swatch Fuel Transport Inc.<br />
