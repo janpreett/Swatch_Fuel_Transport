@@ -39,7 +39,6 @@ const PrivacyPolicy = ({ onClose }) => {
           <li><strong>Access and Correction:</strong> The right to access, correct, or update your personal information.</li>
           <li><strong>Deletion:</strong> The right to request the deletion of your personal information, subject to certain exceptions.</li>
           <li><strong>Opt-Out:</strong> The right to opt-out of receiving marketing communications from us.</li>
-          <li><strong>Consent Withdrawal:</strong> The right to withdraw consent for processing based on consent.</li>
         </ul>
         <p>If you receive SMS messages from us concerning your inquiry, message frequency may vary, and message and data rates may apply. To opt out of receiving SMS messages, reply with "STOP." For assistance, reply with "HELP."</p>
         <p>To exercise your rights or for any questions, please contact us using the contact information below.</p>
